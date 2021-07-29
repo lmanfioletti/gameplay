@@ -1,13 +1,9 @@
 import React from 'react';
-import {Text, View } from 'react-native';
+import { SignIn } from './src/screeens/SignIn';
 
 export default function App() {
   return (
-    <View>
-      <Text>Hello word, NLW Together</Text>
-    </View>
-
-
+    <SignIn />
   );
   
 }
